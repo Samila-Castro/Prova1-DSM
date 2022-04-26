@@ -65,7 +65,6 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Calculadora</Text>
       <Display value={valueDisplay} result={valueResult}/>
      <View 
        style={styles.buttonsContainer}>
